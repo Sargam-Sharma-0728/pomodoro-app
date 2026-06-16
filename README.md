@@ -2,7 +2,7 @@
 
 A beautiful, minimal Pomodoro timer with task logging and AI-powered productivity insights.
 
-**Stack:** Next.js 14 · Tailwind CSS · Supabase · Claude AI · Vercel
+Pomodoro App built with Next.js, Supabase, and AI integration to help users stay focused, manage tasks, and improve productivity.
 
 ---
 
