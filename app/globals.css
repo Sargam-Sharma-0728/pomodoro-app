@@ -52,10 +52,18 @@ body {
   }
 
   .btn-primary {
-    @apply bg-tomato-500 text-white font-mono text-sm px-6 py-2.5 rounded-lg transition-all duration-200;
+    background-color: #e63946;
+    color: white;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.875rem;
+    padding: 0.625rem 1.5rem;
+    border-radius: 0.5rem;
+    transition: all 0.2s;
+    border: none;
+    cursor: pointer;
   }
   .btn-primary:hover {
-    @apply bg-tomato-600;
+    background-color: #c1121f;
     transform: scale(1.02);
   }
   .btn-primary:active {
@@ -63,9 +71,19 @@ body {
   }
 
   .btn-ghost {
-    @apply border border-surface-500 text-zinc-400 font-mono text-sm px-5 py-2.5 rounded-lg transition-all duration-200;
+    background-color: transparent;
+    border: 1px solid #2e2e2e;
+    color: #a1a1aa;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.875rem;
+    padding: 0.625rem 1.25rem;
+    border-radius: 0.5rem;
+    transition: all 0.2s;
+    cursor: pointer;
   }
   .btn-ghost:hover {
-    @apply border-surface-400 text-zinc-200;
+    border-color: #3f3f3f;
+    color: #e4e4e7;
   }
 }
+
