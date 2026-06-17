@@ -52,10 +52,20 @@ body {
   }
 
   .btn-primary {
-    @apply bg-tomato-500 hover:bg-tomato-600 text-white font-mono text-sm px-6 py-2.5 rounded-lg transition-all duration-200 hover:scale-[1.02] active:scale-[0.98];
+    @apply bg-tomato-500 text-white font-mono text-sm px-6 py-2.5 rounded-lg transition-all duration-200;
+  }
+  .btn-primary:hover {
+    @apply bg-tomato-600;
+    transform: scale(1.02);
+  }
+  .btn-primary:active {
+    transform: scale(0.98);
   }
 
   .btn-ghost {
-    @apply border border-surface-500 hover:border-surface-400 text-zinc-400 hover:text-zinc-200 font-mono text-sm px-5 py-2.5 rounded-lg transition-all duration-200;
+    @apply border border-surface-500 text-zinc-400 font-mono text-sm px-5 py-2.5 rounded-lg transition-all duration-200;
+  }
+  .btn-ghost:hover {
+    @apply border-surface-400 text-zinc-200;
   }
 }
